@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:todo_app/core/constants/app_icons.dart';
-import 'package:todo_app/core/constants/main_colors.dart';
-import 'package:todo_app/view/cubit/bottom_navbar_cubit.dart';
-import 'package:todo_app/view/widgets/modal_bottom_sheet.dart';
+import 'package:todo_app/view/navbar_cubit/bottom_navbar_cubit.dart';
+import 'package:todo_app/view/widgets/bottom_sheet_button.dart';
 
 class BottomNavBarView extends StatelessWidget {
   const BottomNavBarView({Key? key}) : super(key: key);
@@ -50,16 +49,7 @@ class BottomNavBarView extends StatelessWidget {
             extendBody: true,
             floatingActionButtonLocation:
                 FloatingActionButtonLocation.centerDocked,
-            floatingActionButton: FloatingActionButton(
-              backgroundColor: AppColors.ellipseColor,
-              onPressed: () {
-                // workWithHive();
-                // showbottom(context);
-                // showModalBottomSheet();
-                showbottom(context);
-              },
-              child: SvgPicture.asset(APPIcons.plus),
-            ),
+            floatingActionButton: BottomSheetButton(),
           );
         },
       ),

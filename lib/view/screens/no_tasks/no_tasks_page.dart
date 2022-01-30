@@ -3,8 +3,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:todo_app/core/components/size_config.dart';
 import 'package:todo_app/core/constants/main_colors.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class NotasksPage extends StatelessWidget {
+  const NotasksPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

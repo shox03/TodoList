@@ -23,7 +23,11 @@ class _DropDownButtonState extends State<DropDownButton> {
         DropdownMenuItem(
           child: Text("Today, 19:00 - 21:00"),
           value: 2,
-        )
+        ),
+        DropdownMenuItem(
+          child: Text("Tomorrow, 19:00 - 21:00"),
+          value: 3,
+        ),
       ],
       onChanged: (int? value) {
         setState(() {

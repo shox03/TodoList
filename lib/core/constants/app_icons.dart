@@ -6,4 +6,7 @@ class APPIcons {
   static String path = "assets/icons/Path 93.svg";
   static String trash = "assets/icons/trash.svg";
   static String plus = "assets/icons/plus.svg";
+  static String pen = "assets/icons/pen.svg";
+  static String delete = "assets/icons/delete.svg";
+  static String smallBells = "assets/icons/small_bells.svg";
 }

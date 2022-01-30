@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todo_app/routes.dart';
 
 void main() async {
   await Hive.initFlutter();
+  await Hive.openBox('task_box');
 
   runApp(const MyApp());
 }

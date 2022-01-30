@@ -6,15 +6,20 @@ class Listofcontexts {
     '07.00',
     '08.00',
     '09.00',
+    '07.00',
+    '08.00',
+    '09.00',
     '10.00',
-    '11.00'
+    '11.00',
+    '10.00',
+    '11.00',
   ];
   static List<String> names = [
     'Send Project File',
     'Meeting with clients',
     'email client',
     'Morning Yoga',
-    'Go jogging with Chiston'
+    'Go jogging with Chiston',
   ];
   static List<Color> colors = [
     Colors.red,
@@ -22,22 +27,27 @@ class Listofcontexts {
     Colors.blue,
     Colors.purple,
     Colors.pink,
+    Colors.red,
+    Colors.yellow,
+    Colors.blue,
+    Colors.purple,
+    Colors.pink,
   ];
 
-  static const List<int> radioValue = [1, 2, 3, 4, 5];
+  static const List<int> radioValue = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   static const List<String> nameOfprojects = [
     'Personal',
     'Work',
     'Meeting',
-    'Shopping'
+    'Shopping',
   ];
 
   static const List<String> taskOfprojects = [
     '24 Task',
     '44 Task',
     '45 Task',
-    '54 Task'
+    '54 Task',
   ];
 
   static List<Color> colorOFcircle = [
@@ -45,6 +55,12 @@ class Listofcontexts {
     AppColors.lightGreenColor,
     AppColors.lightRedColor,
     AppColors.lightYellowColor,
+    AppColors.lightGreenColor,
+    AppColors.lightOrangeColor,
+    AppColors.lightGreenColor,
+    AppColors.lightRedColor,
+    AppColors.lightYellowColor,
+    AppColors.lightGreenColor,
   ];
 
   static const List<String> icons = [
